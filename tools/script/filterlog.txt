@@ -1,0 +1,46 @@
+query tpcds dataset...
+compression for file /data/dataset/catalog_sales_uncompressed.orc: none
+Rows: 14401261
+Batches: 14064
+number of value grater than 40000: 9423444
+filter,/data/dataset/catalog_sales_uncompressed.orc,0.379668,0.140225
+Rows: 14401261
+Batches: 14064
+sum: 705878332023
+sum,/data/dataset/catalog_sales_uncompressed.orc,0.340051,0.1352
+compression for file /data/dataset/catalog_sales_zstd.orc: zstd
+Rows: 14401261
+Batches: 14064
+number of value grater than 40000: 9423444
+filter,/data/dataset/catalog_sales_zstd.orc,0.258193,0.14224
+Rows: 14401261
+Batches: 14064
+sum: 705878332023
+sum,/data/dataset/catalog_sales_zstd.orc,0.199765,0.134177
+compression for file /data/dataset/catalog_sales_lz4.orc: lz4
+Rows: 14401261
+Batches: 14064
+number of value grater than 40000: 9423444
+filter,/data/dataset/catalog_sales_lz4.orc,0.379642,0.143491
+Rows: 14401261
+Batches: 14064
+sum: 705878332023
+sum,/data/dataset/catalog_sales_lz4.orc,0.318076,0.137023
+compression for file /data/dataset/catalog_sales_snappy.orc: snappy
+Rows: 14401261
+Batches: 14064
+number of value grater than 40000: 9423444
+filter,/data/dataset/catalog_sales_snappy.orc,0.290991,0.147985
+Rows: 14401261
+Batches: 14064
+sum: 705878332023
+sum,/data/dataset/catalog_sales_snappy.orc,0.235572,0.139317
+compression for file /data/dataset/catalog_sales_zlib.orc: zlib
+Rows: 14401261
+Batches: 14064
+number of value grater than 40000: 9423444
+filter,/data/dataset/catalog_sales_zlib.orc,0.340492,0.241536
+Rows: 14401261
+Batches: 14064
+sum: 705878332023
+sum,/data/dataset/catalog_sales_zlib.orc,0.305859,0.234278
