@@ -604,6 +604,7 @@ int main(int argc, char *argv[]) {
     orc::WriterOptions options;
     options.setStripeSize(stripeSize);
     options.setCompressionBlockSize(blockSize);
+    options.setDictionaryKeySizeThreshold(0.8);
     options = setOrcComp(options, comp, comp_level);
 
     ORC_UNIQUE_PTR<orc::OutputStream> outStream = orc::writeLocalFile(orc_file);
